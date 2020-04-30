@@ -3,4 +3,4 @@ module.exports = (robot) ->
   	res.send("I am your friendly chatbot!")
 
   robot.respond /.*(what|about).*do.*/i, (res) ->
-  	res.send("You'll find out soon.")
+  	res.send("I can do many things, just teach me your ways.")
