@@ -24,8 +24,8 @@ USER slackbot
 WORKDIR ${BOTDIR}
 
 RUN yo hubot \
-	--owner=${HUBOT_NAME} \
-	--name=${HUBOT_OWNER} \ 
+	--owner=${HUBOT_OWNER} \
+	--name=${HUBOT_NAME} \ 
 	--description=${HUBOT_OWNER} \
 	--adapter=slack \
 	--defaults
