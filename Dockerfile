@@ -2,7 +2,7 @@ FROM alpine:3.9.6
 
 MAINTAINER Chanelle Ramos <chanelle.pes.ramos@gmail.com>
 
-ENV HUBOT_SLACK_TOKEN xoxb-1117556365824-1092342338293-pRaReyTK6zACVr7e4UYtsQJd
+ENV HUBOT_SLACK_TOKEN your-token
 ENV HUBOT_NAME s18hedgehogy-bot
 ENV HUBOT_OWNER "Chanelle Ramos <chanelle.pes.ramos@gmail.com>"
 ENV HUBOT_DESCRIPTION s18hedgehogy-bot
