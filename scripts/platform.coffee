@@ -46,10 +46,10 @@ module.exports = (robot) ->
 	robot.respond /(.*dev)|(.*engineer)|(.*architect)/i, (res) -> 
 		response = "As a developer, engineer or architect, you get to benefit the following:"
 
-		response += "\n>Accessible user manuals and resources"
-		response += "\n>Tools are hosted within a secured environment"
-		response += "\n>Highly-available platform"
-		response += "\n>Receive L1 and L2 support from the Katana team"
+		response += "\n • Accessible user manuals and resources"
+		response += "\n • Tools are hosted within a secured environment"
+		response += "\n • Highly-available platform"
+		response += "\n • Receive L1 and L2 support from the Katana team"
 
 		response += "\nAnything else that I can help you with?"
 

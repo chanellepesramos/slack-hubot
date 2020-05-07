@@ -1,6 +1,8 @@
 module.exports = (robot) ->
 	robot.respond /.*(how.*to|want|need|require).*on.*board/i, (res) ->
-		response = "Thank you for your interest in our platform! Alrighty, to get onboard as smoothly as possible, please fill this survey: bit.ly/xxx."
+		response = "Thank you for your interest in our platform!" 
+
+		response += "\n\nAlrighty, to get onboard as smoothly as possible, please fill this survey: bit.ly/xxx."
 
 		response += "\n\nYour Avengers LDAP account will be created after your survey is processed. Within a few business days, you will receive an email with your LDAP credentials and the Avengers Starter Pack. This starter pack provides the necessary resources to get you started. In the same email is a survey where you can request an LDAP group change. Requesting for an LDAP group change is optional."
 

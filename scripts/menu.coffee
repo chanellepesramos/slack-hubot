@@ -14,7 +14,7 @@ module.exports = (robot) ->
 		menu_options = "At your service :wink:"
 
 		menu_options += "\n>What is the Decentralized DOVIC Platform?"
-		menu_options += "\n>I want to get onboarded?"
+		menu_options += "\n>I want to get onboarded"
 		menu_options += "\n>I have a question"
 		menu_options += "\n>I have a request"
 		menu_options += "\n>I need support"

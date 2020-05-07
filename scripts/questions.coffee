@@ -21,7 +21,11 @@ module.exports = (robot) ->
 		res.send response
 
 	robot.respond /.*no.*:cry:/i, (res) ->
-		response = "Bummer! Our Katana support member might be able to help you out [link contact details]. Is there anything else I can help you with?"
+		response = "Bummer! Our Katana support member might be able to help you out."
+		response += "\n • Shuhui S <@U012B7J4MN3>"
+		response += "\n • Chanelle R <@U012Q9Z1RL5>"
+
+		response += "\n\nIs there anything else I can help you with?"
 
 		response += "\n> I want to get onboarded"
 		response += "\n> I have a question"
